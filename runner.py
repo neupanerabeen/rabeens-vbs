@@ -1,6 +1,8 @@
 from fastapi import FastAPI, requests
 import uvicorn
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+
 
 
 app = FastAPI(
@@ -17,6 +19,14 @@ app = FastAPI(
         "name": "RSL 0.0.1",
         "url": "https://www.rabeens.com/licenses/LICENSE-2.0.html",
     },
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 class BookingModel(BaseModel):
