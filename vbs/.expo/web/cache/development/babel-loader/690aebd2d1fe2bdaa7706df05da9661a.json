@@ -1,0 +1,1 @@
+{"ast":null,"code":"import StatusBar from \"react-native-web/dist/exports/StatusBar\";\nexport default function setStatusBarBackgroundColor(backgroundColor, animated) {\n  StatusBar.setBackgroundColor(backgroundColor, animated);\n}","map":null,"metadata":{},"sourceType":"module"}

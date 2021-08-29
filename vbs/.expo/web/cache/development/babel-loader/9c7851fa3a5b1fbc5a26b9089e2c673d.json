@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from 'react';\nimport AnimatedValue from \"./core/AnimatedValue\";\nexport default function useValue(initialValue) {\n  var ref = React.useRef(null);\n\n  if (ref.current === null) {\n    ref.current = new AnimatedValue(initialValue);\n  }\n\n  return ref.current;\n}","map":null,"metadata":{},"sourceType":"module"}

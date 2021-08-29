@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nfunction infoLog() {\n  var _console;\n\n  return (_console = console).log.apply(_console, arguments);\n}\n\nexport default infoLog;","map":null,"metadata":{},"sourceType":"module"}

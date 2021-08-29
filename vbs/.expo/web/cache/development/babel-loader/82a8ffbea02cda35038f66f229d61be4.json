@@ -1,0 +1,1 @@
+{"ast":null,"code":"var Platform = {\n  OS: 'web',\n  select: function select(obj) {\n    return 'web' in obj ? obj.web : obj.default;\n  },\n\n  get isTesting() {\n    if (process.env.NODE_DEV === 'test') {\n      return true;\n    }\n\n    return false;\n  }\n\n};\nexport default Platform;","map":null,"metadata":{},"sourceType":"module"}

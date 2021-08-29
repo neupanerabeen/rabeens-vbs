@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function isArrayEqual(a, b) {\n  return a.length === b.length && a.every(function (it, index) {\n    return it === b[index];\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

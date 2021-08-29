@@ -1,0 +1,1 @@
+{"ast":null,"code":"var recoveredPropsToSave = null;\nexport function getRecoveryPropsToSave() {\n  return recoveredPropsToSave;\n}\nexport function setRecoveryPropsToSave(props) {\n  recoveredPropsToSave = JSON.stringify(props);\n}","map":null,"metadata":{},"sourceType":"module"}

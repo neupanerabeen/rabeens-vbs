@@ -1,0 +1,1 @@
+{"ast":null,"code":"import StatusBar from \"react-native-web/dist/exports/StatusBar\";\nexport default function setStatusBarTranslucent(translucent) {\n  StatusBar.setTranslucent(translucent);\n}","map":null,"metadata":{},"sourceType":"module"}

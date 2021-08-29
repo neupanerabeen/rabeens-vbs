@@ -1,0 +1,1 @@
+{"ast":null,"code":"var g;\n\ng = function () {\n  return this;\n}();\n\ntry {\n  g = g || new Function(\"return this\")();\n} catch (e) {\n  if (typeof window === \"object\") g = window;\n}\n\nmodule.exports = g;","map":null,"metadata":{},"sourceType":"script"}

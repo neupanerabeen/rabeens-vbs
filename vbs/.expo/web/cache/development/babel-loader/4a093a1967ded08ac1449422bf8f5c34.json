@@ -1,0 +1,1 @@
+{"ast":null,"code":"import createStyleResolver from \"./createStyleResolver\";\nvar styleResolver = createStyleResolver();\nexport default styleResolver;","map":null,"metadata":{},"sourceType":"module"}

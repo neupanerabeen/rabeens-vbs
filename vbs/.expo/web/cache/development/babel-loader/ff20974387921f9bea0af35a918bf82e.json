@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { hydrate, render } from 'react-dom';\nexport { hydrate };\nexport default render;","map":null,"metadata":{},"sourceType":"module"}

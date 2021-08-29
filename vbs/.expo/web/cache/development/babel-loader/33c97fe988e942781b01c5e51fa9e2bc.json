@@ -1,0 +1,1 @@
+{"ast":null,"code":"import StatusBar from \"react-native-web/dist/exports/StatusBar\";\nexport default function setStatusBarNetworkActivityIndicatorVisible(visible) {\n  StatusBar.setNetworkActivityIndicatorVisible(visible);\n}","map":null,"metadata":{},"sourceType":"module"}

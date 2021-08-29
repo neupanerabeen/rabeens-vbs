@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var Directions = {\n  RIGHT: 1,\n  LEFT: 2,\n  UP: 4,\n  DOWN: 8\n};","map":null,"metadata":{},"sourceType":"module"}

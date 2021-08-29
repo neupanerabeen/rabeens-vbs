@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment';\nimport StyleSheet from \"./StyleSheet\";\n\nif (canUseDOM && window.__REACT_DEVTOOLS_GLOBAL_HOOK__) {\n  window.__REACT_DEVTOOLS_GLOBAL_HOOK__.resolveRNStyle = StyleSheet.flatten;\n}\n\nexport default StyleSheet;","map":null,"metadata":{},"sourceType":"module"}

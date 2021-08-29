@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { findDOMNode } from 'react-dom';\n\nvar findNodeHandle = function findNodeHandle(component) {\n  var node;\n\n  try {\n    node = findDOMNode(component);\n  } catch (e) {}\n\n  return node;\n};\n\nexport default findNodeHandle;","map":null,"metadata":{},"sourceType":"module"}

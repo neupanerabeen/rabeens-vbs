@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar ExecutionEnvironment = require(\"./ExecutionEnvironment\");\n\nvar performance;\n\nif (ExecutionEnvironment.canUseDOM) {\n  performance = window.performance || window.msPerformance || window.webkitPerformance;\n}\n\nmodule.exports = performance || {};","map":null,"metadata":{},"sourceType":"script"}

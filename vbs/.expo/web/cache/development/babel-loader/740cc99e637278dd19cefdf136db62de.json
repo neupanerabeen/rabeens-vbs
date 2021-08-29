@@ -1,0 +1,1 @@
+{"ast":null,"code":"function _nonIterableRest() {\n  throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\");\n}\n\nmodule.exports = _nonIterableRest;","map":null,"metadata":{},"sourceType":"script"}

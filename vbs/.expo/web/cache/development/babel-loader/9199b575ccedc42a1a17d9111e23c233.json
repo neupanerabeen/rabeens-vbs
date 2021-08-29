@@ -1,0 +1,1 @@
+{"ast":null,"code":"import AsyncStorage from \"./AsyncStorage\";\nexport default AsyncStorage;\nexport { useAsyncStorage } from \"./hooks\";","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment';\nimport { useEffect, useLayoutEffect } from 'react';\nvar useLayoutEffectImpl = canUseDOM ? useLayoutEffect : useEffect;\nexport default useLayoutEffectImpl;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var APP_CONFIG = {\n  \"api_path\": \"http://192.168.1.16:8000\",\n  \"token_store_key\": \"rabeens_token_key\",\n  \"minBookStartDaysDelta\": 30,\n  \"minBookEndDaysDelta\": 90\n};","map":null,"metadata":{},"sourceType":"module"}

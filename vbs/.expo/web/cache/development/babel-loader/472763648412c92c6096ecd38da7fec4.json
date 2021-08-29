@@ -1,0 +1,1 @@
+{"ast":null,"code":"import TouchableNativeFeedback from \"react-native-web/dist/exports/TouchableNativeFeedback\";\nexport default TouchableNativeFeedback;","map":null,"metadata":{},"sourceType":"module"}

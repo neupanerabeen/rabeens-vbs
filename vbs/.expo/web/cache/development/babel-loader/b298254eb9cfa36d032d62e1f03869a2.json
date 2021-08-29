@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as TouchableNativeFeedback } from \"./TouchableNativeFeedback\";\nexport { default as TouchableWithoutFeedback } from \"./TouchableWithoutFeedback\";\nexport { default as TouchableOpacity } from \"./TouchableOpacity\";\nexport { default as TouchableHighlight } from \"./TouchableHighlight\";","map":null,"metadata":{},"sourceType":"module"}

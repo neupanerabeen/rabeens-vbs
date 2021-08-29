@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { UnavailabilityError } from \"./errors/UnavailabilityError\";\nexport function requireNativeViewManager(viewName) {\n  throw new UnavailabilityError('@unimodules/react-native-adapter', 'requireNativeViewManager');\n}","map":null,"metadata":{},"sourceType":"module"}

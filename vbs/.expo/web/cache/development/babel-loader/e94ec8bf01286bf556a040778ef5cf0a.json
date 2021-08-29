@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from \"./AdapterProxy\";\nexport { default as deprecate } from \"./deprecate\";","map":null,"metadata":{},"sourceType":"module"}

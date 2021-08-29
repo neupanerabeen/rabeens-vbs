@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var State = {\n  UNDETERMINED: 0,\n  FAILED: 1,\n  BEGAN: 2,\n  CANCELLED: 3,\n  ACTIVE: 4,\n  END: 5\n};","map":null,"metadata":{},"sourceType":"module"}
